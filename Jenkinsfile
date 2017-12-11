@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine' 
-            args '-v /User/wecash/.m2:/root/.m2'
+            args '-v /Users/wecash/.m2:/root/.m2'
         }
     }
     stages {
